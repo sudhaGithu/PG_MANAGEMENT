@@ -13,7 +13,7 @@ const branchSchema = new Schema({
     },
     hostelType: {
         type: String,
-        enum: ['PG(male)', 'PG(female)', 'CO-Living(couples)'],
+        enum: ['PG(Male)', 'PG(Female)', 'CO-Living(Couples)'],
         required: true,
     },
     hostelName: {
